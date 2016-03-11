@@ -1,7 +1,7 @@
 """prompt.py in Pycryption"""
 
 
-def cmd():
+def startPrompt():
     # mmm
     crash = False
     while crash != True:
@@ -9,7 +9,8 @@ def cmd():
         if input == "":
             print "Remember to write something before hitting ENTER."
             continue
-        elif input == "quit" or input == "exit":
+        elif input == "quit":
+            quit()
             crash = True
             # bye bye
         elif input == "help" or input == "?":
