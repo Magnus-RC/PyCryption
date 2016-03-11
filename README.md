@@ -3,10 +3,13 @@ PyCryption is an new basic encryption tool for both windows and linux.
 
 
 #installation
+Don't mind the .idea folder just follow the guide down below.
 
 Windows:
-  in the repository folder start pycryption.exe
+  1. go to the repository folder.
+  2. click on pycryption.exe
 
 linux:
-  In terminal:$ python pycryption.py
+  1. go to the repository folder.
+  2. In the terminal:$ python pycryption.py
   
