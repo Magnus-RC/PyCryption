@@ -1,16 +1,25 @@
+"""commands.py in Pycryption"""
+
+
 class command(object):
-    listOfCommands = ["help --showing a list of commands", "quit --for quitting the program", ""]
+    listOfCommands = ["help --showing a list of commands", "quit --for quitting the program",
+                      "crypt --starts the encryption process"]
 
     def __init__(self, serviceName):
         self.serviceName = serviceName
 
+    @staticmethod
     def help(self):
-        for command in self.listOfCommands:
-            print command
+        for c in self.listOfCommands:
+            print c
 
+    @staticmethod
     def quit(self):
         exit()
 
+    @staticmethod
+    def crypt(self):
+        print 1
 
 
 
