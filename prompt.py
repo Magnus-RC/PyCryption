@@ -1,13 +1,14 @@
 """prompt.py in Pycryption"""
 import commands
 
+
 def startPrompt():
     # mmm
     c = commands.command("prompt")
 
     crash = False
     print "please type help to see all the commands"
-    while crash != True:
+    while crash is not True:
         cinput = str(raw_input(">"))
         if cinput == "":
             print "Remember to write something before hitting ENTER."

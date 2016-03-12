@@ -1,4 +1,5 @@
 """commands.py in Pycryption"""
+import crypt
 
 
 class command(object):
@@ -19,7 +20,7 @@ class command(object):
 
     @staticmethod
     def crypt(self):
-        print 1
+        crypt.startEncryption()
 
 
 
