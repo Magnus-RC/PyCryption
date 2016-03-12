@@ -8,8 +8,9 @@ def startEncryption():
         print "type in what you want to encrypt down below."
         userInput = str(raw_input(">"))
         if userInput == "":
-            print "sorry, you did not type something in the input."
+            print "sorry, you did not type something in to the input."
             continue
         else:
             break
+
 

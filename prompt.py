@@ -22,3 +22,6 @@ def startPrompt():
 
         elif cinput == "crypt":
             c.crypt()
+
+        elif cinput == "license":
+            c.license()
