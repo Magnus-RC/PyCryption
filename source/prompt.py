@@ -20,8 +20,8 @@ def startPrompt():
         elif cinput == "help":
             c.help()
 
-        elif cinput == "crypt":
-            c.crypt()
+        elif cinput == "encrypt":
+            c.encrypt()
 
         elif cinput == "license":
             c.license()

@@ -19,7 +19,7 @@ class command(object):
         exit()
 
     @staticmethod
-    def crypt():
+    def encrypt():
         crypt.startEncryption()
 
     @staticmethod
