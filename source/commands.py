@@ -4,8 +4,6 @@ import prompt
 
 
 class command(object):
-    """listOfCommands = ["help --showing a list of commands", "quit --for quitting the program",
-                      "crypt --starts the encryption process"]"""
 
     def __init__(self, serviceName):
         self.serviceName = serviceName
