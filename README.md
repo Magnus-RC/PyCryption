@@ -11,5 +11,6 @@ Windows:
 
 linux:
   1. go to the repository folder.
-  2. In the terminal:$ python pycryption.py
+  2. open the folder called "source"
+  2. In the terminal:$ python main.py
   
