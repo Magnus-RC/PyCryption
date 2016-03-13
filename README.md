@@ -14,3 +14,4 @@ linux:
   2. open the folder called "source"
   2. In the terminal:$ python main.py
   
+#warring! this program is not 100% secure!
